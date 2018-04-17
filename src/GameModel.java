@@ -119,7 +119,7 @@ public class GameModel implements Cloneable{
    
        
        try{
-         clone();//初始的时候需要讲最开始的位置复制下来
+         clone();
          }
        catch(CloneNotSupportedException e){
          e.printStackTrace();
@@ -135,7 +135,7 @@ public class GameModel implements Cloneable{
       //System.arraycopy(state, 0, newState, 0, size);
       //create a deep copy, 
       //System.arraycopy still pointing to the same address
-      //arraycopy 还是会将两个 list 指向同一个地址，处理这个问题
+      //
       //using for loop to copy each location
       
       for (int i =0; i< size; i++){
@@ -208,7 +208,7 @@ public class GameModel implements Cloneable{
       //clear the cloneStack
       //when redoStack is empty, disable the undo/redo button
       
-      //想办法在这里把blue point保留住，处理一下
+      //
       
       int[][] temp = null;
       
@@ -274,7 +274,7 @@ public class GameModel implements Cloneable{
      //after the method called
      //
      try{
-       clone();//这个方法是每点一次，就将本次的位置复制一遍，push到stack中去
+       clone();//
      }catch(CloneNotSupportedException e){
        e.printStackTrace();
      }

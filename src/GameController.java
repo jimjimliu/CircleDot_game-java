@@ -88,7 +88,7 @@ public class GameController implements ActionListener{
           
           if(gameModel.getUndoStackSize() != 0){gameView.enableUndo();}
           
-          gameView.getBoardView().update();//每点一次。屏幕就会刷新一次
+          gameView.getBoardView().update();
           
           if( r == -1){
             result(false);
