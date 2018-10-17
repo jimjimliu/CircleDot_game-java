@@ -6,4 +6,7 @@ This game is simple: a blue dot is trying to “escape” the board (that is, ex
 download the '.jar' file, click it to run the game.
 
 ### Demo
-![Image discription](https://github.com/jimjimliu/CircleDot_game-java/blob/master/image/dot.jpg)
+
+  <img width="460" height="530" src="https://github.com/jimjimliu/CircleDot_game-java/blob/master/image/dot.jpg">
+
+
